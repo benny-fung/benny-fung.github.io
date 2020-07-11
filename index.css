@@ -246,6 +246,13 @@ table tr td{
     font-family: 'Courier New', Courier, monospace;
 }
 
+.projects-container span {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 500;
+    margin-top: -50px;
+}
+
 
 
 .end {
