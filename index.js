@@ -1,7 +1,4 @@
 var getAllRecords = function() {
-    console.log(${KEY});
-    console.log(${secret.KEY});
-    console.log(${{secret.KEY}});
     $.getJSON(
       "https://api.airtable.com/v0/appjwpiqXF4HFv6V0/Page?api_key=${KEY}",
       function(airtable) {
@@ -70,5 +67,9 @@ var getAllRecords = function() {
       </div>
     `;
   };
+
+    console.log(${KEY});
+    console.log(${secret.KEY});
+    console.log(${{secret.KEY}});
 
 getAllRecords();
