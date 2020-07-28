@@ -71,5 +71,9 @@ var getAllRecords = function() {
     console.log(${KEY});
     console.log(${secret.KEY});
     console.log(${{secret.KEY}});
+console.log(`${KEY}`);
+    console.log(`${secret.KEY}`);
+    console.log(`${{secret.KEY}}`);
+
 
 getAllRecords();
