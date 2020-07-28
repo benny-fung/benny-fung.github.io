@@ -1,6 +1,6 @@
 var getAllRecords = function() {
     $.getJSON(
-      "https://api.airtable.com/v0/appjwpiqXF4HFv6V0/Page?api_key=${KEY}",
+      "https://api.airtable.com/v0/appjwpiqXF4HFv6V0/Page?api_key=keyxt8HjuBRrLoU37",
       function(airtable) {
         var html = [];
         $.each(airtable.records, function(index, record) {
