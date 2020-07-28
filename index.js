@@ -24,14 +24,12 @@ var getAllRecords = function() {
       }
       else{
           image = image[0].url;
-          console.log(image);
       }
 
       if(link)
       {
           let tmp = link;
           link = `<a id="git"href="${tmp}" target="_blank"><i class="devicon-github-plain" id="social"></i></a>`;
-          console.log(link);
       }
       else{
         link = `<a id="git"><i id="social" class="devicon-devicon-plain"></i></a>`;
