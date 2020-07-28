@@ -8,10 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
     <title>Benny Fung</title>
   </head>
   <body>
@@ -20,7 +22,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <a href="https://github.com/bfung22" target="_blank"><i class="devicon-github-plain" id="social"></i></a>
-        <a href="www.linkedin.com/in/benny--fung" target="_blank"><i class="devicon-linkedin-plain" id="social"></i></a>
+        <a href="https://www.linkedin.com/in/benny--fung" target="_blank"><i class="devicon-linkedin-plain" id="social"></i></a>
         <i class="material-icons" style="font-size: 36px"></i>
 
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -48,15 +50,11 @@
         <h2 class= "animate__animated animate__fadeInLeft animate__fast" id="animate-intro">Hello,</h2>
         <h1 class="animate__animated animate__fadeInLeft animate__slow">I'm <b>Benny</b>. &#128075</h1>
         <div class="intro2">
-          <img class = "animate__animated animate__fadeInRight animate__fast" src="https://bfung22.github.io/images/benny.jpg">
+          <img id="pic" class = "animate__animated animate__fadeInRight animate__fast" src="https://bfung22.github.io/images/benny.jpg">
           <h2 class="animate__animated animate__fadeIn animate__slower" id= #programmer>Programmer. Problem solver.</h2>
           <br>
           <h1 class="animate__animated animate__fadeIn animate__slower" id="welcome">Welcome to my page !</h1>
           <br>
-        </div>
-        <div class="socials">
-          <!-- <a href="https://github.com" target="_blank"><i class="devicon-github-plain" id="social"></i></a>
-          <a href="https://linkedin.com" target="_blank"><i class="devicon-linkedin-plain" id="social"></i></a> -->
         </div>
       </div>
 
@@ -65,26 +63,30 @@
         <div class="container-fluid">
           <div class="d-flex flex-row align-items-stretch">
               <div class="col-md-5">
-                  <div class="jumbotron m-0">
+                  <div class="jumbotron m-0" style="padding-left: 17px">
                       <h6 class="display-6 m-0">
                         <img src="https://myusf.usfca.edu/sites/default/files/images/OMC/usf_f_h2_t_2c_rgb_360.png">
-                        <span><br>Recent graduate in Computer Science with coursework in: Software Development, Data Structures & Algorithms, Computer Networks, Cryptography, Operating Systems, and Computer Architecture.</span>
+                        <span style="line-height: 1.5rem">
+                          <br>
+                          Recent graduate with a B.S in Computer Science
+                          <br>
+                          <br>
+                          Dean's Honor Roll
+                          <br>
+                          <br>
+                          Hackathon First Place Winner: Advanced Best Website	&#127942;
+                        </span>
                       </h6>
                   </div>
               </div>
               <div class="jumbotron m-0" id="data">
                 <h6 class="display-6 m-0">
-                  <span class="info" >Hey! I am a programmer based in San Francisco with previous experience in customer service and administrative roles. I enjoy all things related to programming—— software, data, front-end, back-end, and full-stack! Always picking up on new tricks and techniques, always willing to learn, and always open to all opportunities and challenges to work on exciting projects! I am eager to get my foot in the door to apply my creative and technical skills.</span>
+                  <span class="info">Hey! I am a programmer based in San Francisco with previous experience in customer service and administrative roles. I enjoy all things related to programming—— software, data, front-end, back-end, and full-stack! Always picking up on new tricks and techniques, always willing to learn, and always open to all opportunities and challenges to work on exciting projects! I am eager to get my foot in the door to apply my creative and technical skills.</span>
                 </h6>
               </div>
           </div>
          </div>
       </div>
-
-
-        
-
-
 
       <div class="skills-text" id="skills-text"><h3>Here's what I have worked with —————</h3></div>
       <div class= test>          
@@ -139,14 +141,14 @@
       </div>
     </div>
 
+    
     <div class= "projects-container">
-      <h2>Some projects I've built —————</h2>
-    <div class="jumbotron">
-      <h6 class="display-6 m-0">
-        <span class="info">This webpage started off as an experiment and a medium for practice to play around with HTML and CSS, but I ended up really liking this layout, so I am in the process of integrating all my projects over to this section! Hence, this page is still in the works, but feel free to checkout my GitHub repository and even my (former) page <u><b><a href="https://bfung22.github.io" target="_blank">here</a></u></b>. Stay tuned!</span>
-      </h6>
+      <h2>Some projects I've built —————</h2>     
     </div>
-
+    <div class="message">
+        <span class="info">This webpage started off originally as an experiment and a medium for practice to play around with HTML and CSS, but I ended up really liking this layout, so stay tuned as I continue to integrate more projects over as well as make more improvements to this page! Hence, this page is still in the works, but feel free to check out my GitHub repository or even my (former) page <u><b><a href="https://bfung22.github.io" target="_blank">here</a></u></b>. Stay tuned!
+        </span>
+    </div>
       <div class= "end">
         <div class= "margin-check">
         <br>
@@ -156,11 +158,12 @@
         </div>
       </div>
       <footer>
+
         <button type="button" class="btn btn-outline-warning" href="#home"><nav><a class="nav-link" href="#">Back to top</a></nav></button>
         <br><br>
         <a href="https://github.com/bfung22" target="_blank"><i class="devicon-github-plain" id="social"></i></a>
-        <a href="www.linkedin.com/in/benny--fung" target="_blank"><i class="devicon-linkedin-plain" id="social"></i></a>
-        <p id="conclusion">This page was created using HTML, CSS, and Bootstrap</p>
+        <a href="http://www.linkedin.com/in/benny--fung" target="_blank"><i class="devicon-linkedin-plain" id="social"></i></a>
+        <!-- <p id="conclusion">This page was created using HTML, CSS, and Bootstrap</p> -->
       </footer>
 
     <!-- Optional JavaScript -->
