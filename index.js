@@ -58,7 +58,7 @@ var getAllRecords = function() {
             </div>
             <div class="modal-body">
               <p>${wholeText}</p>
-              <a href="${image}" target="_blank"> <img src="${image}" width= 470px height = 450px alt=""/> </a>
+              <a <img src="${image}" width= 470px height = 450px alt=""/> </a>
             </div>
           </div>
         </div>
