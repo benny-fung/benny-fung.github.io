@@ -107,6 +107,8 @@ body {
 
 .test {
     margin: 0 200px;
+    display: flex;
+    justify-content: center;
 }
 
 i{
